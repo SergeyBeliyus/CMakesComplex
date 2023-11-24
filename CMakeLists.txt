@@ -1,0 +1,3 @@
+cmake_minimum_required(VERSION 3.10.0)
+project(my_second_cmake_program)
+add_executable(my_second_cmake_program MultipleFilesFigures.cpp classes/equilaterialtriangle.cpp classes/equilaterialtriangle.h classes/figure.cpp classes/figure.h classes/frectangle.cpp classes/frectangle.h classes/isoscelestriangle.cpp classes/isoscelestriangle.h classes/parallelogram.cpp classes/parallelogram.h classes/quadrangle.cpp classes/quadrangle.h classes/rhombus.cpp classes/rhombus.h classes/righttriangle.cpp classes/righttriangle.h classes/square.cpp classes/square.h classes/triangle.cpp classes/triangle.h)
